@@ -5,7 +5,7 @@ function categories_leveloftrafficstress_5(feature, value, size, resolution, lab
                        placement) {
                 switch(value.toString()) {case '1':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(153,153,153,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1.14}),
+        stroke: new ol.style.Stroke({color: 'rgba(5,159,117,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1.52}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -13,7 +13,7 @@ function categories_leveloftrafficstress_5(feature, value, size, resolution, lab
                     break;
 case '2':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(140,150,198,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1.14}),
+        stroke: new ol.style.Stroke({color: 'rgba(86,180,233,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1.52}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -21,7 +21,7 @@ case '2':
                     break;
 case '3':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(136,65,157,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1.14}),
+        stroke: new ol.style.Stroke({color: 'rgba(230,159,0,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1.52}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -29,7 +29,7 @@ case '3':
                     break;
 case '4':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1.14}),
+        stroke: new ol.style.Stroke({color: 'rgba(213,94,0,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1.52}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
