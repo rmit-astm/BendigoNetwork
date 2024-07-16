@@ -420,7 +420,7 @@ lyr_canopy_cover_9.set('fieldAliases', {'ogc_fid': 'ogc_fid', 'canopy_cover': 'c
 lyr_slope_10.set('fieldAliases', {'ogc_fid': 'ogc_fid', 'slope': 'slope', });
 lyr_lanenumbersoneway_11.set('fieldAliases', {'ogc_fid': 'ogc_fid', 'lanes': 'lanes', });
 lyr_speedlimit_12.set('fieldAliases', {'ogc_fid': 'ogc_fid', 'speed_limit': 'speed_limit', });
-lyr_linkswithbikelaneprojecttags_13.set('fieldAliases', {'ogc_fid': 'ogc_fid', 'bikelaneleft': 'bikelaneleft', 'bikelaneright': 'bikelaneright', 'bikelaneleftwidth': 'bikelaneleftwidth', 'bikelanerightwidth': 'bikelanerightwidth', 'bikelanelefttraf': 'bikelanelefttraf', 'bikelanerighttraf': 'bikelanerighttraf', });
+lyr_linkswithbikelaneprojecttags_13.set('fieldAliases', {'ogc_fid': 'ogc_fid', 'bikelane_left': 'bikelane_left', 'bikelane_right': 'bikelane_right', 'bikelane_left_lane': 'bikelane_left_lane', 'bikelane_right_lane': 'bikelane_right_lane', 'bikelane_left_width': 'bikelane_left_width', 'bikelane_right_width': 'bikelane_right_width', 'bikelane_left_traf_left': 'bikelane_left_traf_left', 'bikelane_left_traf_right': 'bikelane_left_traf_right', 'bikelane_right_traf_left': 'bikelane_right_traf_left', 'bikelane_right_traf_right': 'bikelane_right_traf_right', 'bikelane_left_buff_left': 'bikelane_left_buff_left', 'bikelane_left_buff_right': 'bikelane_left_buff_right', 'bikelane_right_buff_left': 'bikelane_right_buff_left', 'bikelane_right_buff_right': 'bikelane_right_buff_right', });
 lyr_everydayridesharedpaths_14.set('fieldAliases', {'ogc_fid': 'ogc_fid', 'shared_path': 'shared_path', });
 lyr_proposedprotectednetwork_15.set('fieldAliases', {'ogc_fid': 'ogc_fid', 'new_link_required': 'new_link_required', });
 lyr_cyclingmixedtraffic_16.set('fieldAliases', {'ogc_fid': 'ogc_fid', 'cycleway': 'cycleway', });
@@ -440,7 +440,7 @@ lyr_canopy_cover_9.set('fieldImages', {'ogc_fid': 'TextEdit', 'canopy_cover': 'T
 lyr_slope_10.set('fieldImages', {'ogc_fid': 'TextEdit', 'slope': 'TextEdit', });
 lyr_lanenumbersoneway_11.set('fieldImages', {'ogc_fid': 'TextEdit', 'lanes': 'TextEdit', });
 lyr_speedlimit_12.set('fieldImages', {'ogc_fid': 'TextEdit', 'speed_limit': 'TextEdit', });
-lyr_linkswithbikelaneprojecttags_13.set('fieldImages', {'ogc_fid': 'TextEdit', 'bikelaneleft': 'TextEdit', 'bikelaneright': 'TextEdit', 'bikelaneleftwidth': 'TextEdit', 'bikelanerightwidth': 'TextEdit', 'bikelanelefttraf': 'TextEdit', 'bikelanerighttraf': 'TextEdit', });
+lyr_linkswithbikelaneprojecttags_13.set('fieldImages', {'ogc_fid': 'TextEdit', 'bikelane_left': '', 'bikelane_right': '', 'bikelane_left_lane': '', 'bikelane_right_lane': '', 'bikelane_left_width': '', 'bikelane_right_width': '', 'bikelane_left_traf_left': '', 'bikelane_left_traf_right': '', 'bikelane_right_traf_left': '', 'bikelane_right_traf_right': '', 'bikelane_left_buff_left': '', 'bikelane_left_buff_right': '', 'bikelane_right_buff_left': '', 'bikelane_right_buff_right': '', });
 lyr_everydayridesharedpaths_14.set('fieldImages', {'ogc_fid': 'TextEdit', 'shared_path': 'TextEdit', });
 lyr_proposedprotectednetwork_15.set('fieldImages', {'ogc_fid': 'TextEdit', 'new_link_required': 'TextEdit', });
 lyr_cyclingmixedtraffic_16.set('fieldImages', {'ogc_fid': 'TextEdit', 'cycleway': 'TextEdit', });
@@ -460,7 +460,7 @@ lyr_canopy_cover_9.set('fieldLabels', {'ogc_fid': 'hidden field', 'canopy_cover'
 lyr_slope_10.set('fieldLabels', {'ogc_fid': 'hidden field', 'slope': 'inline label - visible with data', });
 lyr_lanenumbersoneway_11.set('fieldLabels', {'ogc_fid': 'hidden field', 'lanes': 'inline label - visible with data', });
 lyr_speedlimit_12.set('fieldLabels', {'ogc_fid': 'hidden field', 'speed_limit': 'inline label - visible with data', });
-lyr_linkswithbikelaneprojecttags_13.set('fieldLabels', {'ogc_fid': 'hidden field', 'bikelaneleft': 'inline label - visible with data', 'bikelaneright': 'inline label - visible with data', 'bikelaneleftwidth': 'inline label - visible with data', 'bikelanerightwidth': 'inline label - visible with data', 'bikelanelefttraf': 'inline label - visible with data', 'bikelanerighttraf': 'inline label - visible with data', });
+lyr_linkswithbikelaneprojecttags_13.set('fieldLabels', {'ogc_fid': 'hidden field', 'bikelane_left': 'no label', 'bikelane_right': 'no label', 'bikelane_left_lane': 'no label', 'bikelane_right_lane': 'no label', 'bikelane_left_width': 'no label', 'bikelane_right_width': 'no label', 'bikelane_left_traf_left': 'no label', 'bikelane_left_traf_right': 'no label', 'bikelane_right_traf_left': 'no label', 'bikelane_right_traf_right': 'no label', 'bikelane_left_buff_left': 'no label', 'bikelane_left_buff_right': 'no label', 'bikelane_right_buff_left': 'no label', 'bikelane_right_buff_right': 'no label', });
 lyr_everydayridesharedpaths_14.set('fieldLabels', {'ogc_fid': 'hidden field', 'shared_path': 'inline label - visible with data', });
 lyr_proposedprotectednetwork_15.set('fieldLabels', {'ogc_fid': 'hidden field', 'new_link_required': 'inline label - visible with data', });
 lyr_cyclingmixedtraffic_16.set('fieldLabels', {'ogc_fid': 'hidden field', 'cycleway': 'inline label - visible with data', });
