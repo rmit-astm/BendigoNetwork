@@ -62,8 +62,8 @@ var lyr_destinationtypelinesbendigo_parking_2 = new ol.layer.Vector({
                 style: style_destinationtypelinesbendigo_parking_2,
                 popuplayertitle: "destination type (lines - bendigo_parking)",
                 interactive: true,
-                    title: '<img src="styles/legend/destinationtypelinesbendigo_parking_2.png" /> destination type (lines - bendigo_parking)'
-                });
+                title: '<img src="styles/legend/destinationtypelinesbendigo_parking_2.png" /> destination type (lines - bendigo_parking)'
+            });
 var format_destinationtypepolygons_3 = new ol.format.GeoJSON();
 var features_destinationtypepolygons_3 = format_destinationtypepolygons_3.readFeatures(json_destinationtypepolygons_3, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -283,8 +283,8 @@ var lyr_linkswithbikelaneprojecttags_13 = new ol.layer.Vector({
                 style: style_linkswithbikelaneprojecttags_13,
                 popuplayertitle: "links with bikelane project tags",
                 interactive: true,
-                    title: '<img src="styles/legend/linkswithbikelaneprojecttags_13.png" /> links with bikelane project tags'
-                });
+                title: '<img src="styles/legend/linkswithbikelaneprojecttags_13.png" /> links with bikelane project tags'
+            });
 var format_everydayridesharedpaths_14 = new ol.format.GeoJSON();
 var features_everydayridesharedpaths_14 = format_everydayridesharedpaths_14.readFeatures(json_everydayridesharedpaths_14, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -298,8 +298,8 @@ var lyr_everydayridesharedpaths_14 = new ol.layer.Vector({
                 style: style_everydayridesharedpaths_14,
                 popuplayertitle: "everyday ride shared paths",
                 interactive: true,
-                    title: '<img src="styles/legend/everydayridesharedpaths_14.png" /> everyday ride shared paths'
-                });
+                title: '<img src="styles/legend/everydayridesharedpaths_14.png" /> everyday ride shared paths'
+            });
 var format_proposedprotectednetwork_15 = new ol.format.GeoJSON();
 var features_proposedprotectednetwork_15 = format_proposedprotectednetwork_15.readFeatures(json_proposedprotectednetwork_15, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -313,8 +313,8 @@ var lyr_proposedprotectednetwork_15 = new ol.layer.Vector({
                 style: style_proposedprotectednetwork_15,
                 popuplayertitle: "proposed protected network",
                 interactive: true,
-                    title: '<img src="styles/legend/proposedprotectednetwork_15.png" /> proposed protected network'
-                });
+                title: '<img src="styles/legend/proposedprotectednetwork_15.png" /> proposed protected network'
+            });
 var format_cyclingmixedtraffic_16 = new ol.format.GeoJSON();
 var features_cyclingmixedtraffic_16 = format_cyclingmixedtraffic_16.readFeatures(json_cyclingmixedtraffic_16, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -328,8 +328,8 @@ var lyr_cyclingmixedtraffic_16 = new ol.layer.Vector({
                 style: style_cyclingmixedtraffic_16,
                 popuplayertitle: "cycling: mixed traffic",
                 interactive: true,
-                    title: '<img src="styles/legend/cyclingmixedtraffic_16.png" /> cycling: mixed traffic'
-                });
+                title: '<img src="styles/legend/cyclingmixedtraffic_16.png" /> cycling: mixed traffic'
+            });
 var format_cyclingonroadlane_17 = new ol.format.GeoJSON();
 var features_cyclingonroadlane_17 = format_cyclingonroadlane_17.readFeatures(json_cyclingonroadlane_17, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -343,8 +343,8 @@ var lyr_cyclingonroadlane_17 = new ol.layer.Vector({
                 style: style_cyclingonroadlane_17,
                 popuplayertitle: "cycling: onroad lane",
                 interactive: true,
-                    title: '<img src="styles/legend/cyclingonroadlane_17.png" /> cycling: onroad lane'
-                });
+                title: '<img src="styles/legend/cyclingonroadlane_17.png" /> cycling: onroad lane'
+            });
 var format_cyclingseparatedlane_18 = new ol.format.GeoJSON();
 var features_cyclingseparatedlane_18 = format_cyclingseparatedlane_18.readFeatures(json_cyclingseparatedlane_18, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -358,8 +358,8 @@ var lyr_cyclingseparatedlane_18 = new ol.layer.Vector({
                 style: style_cyclingseparatedlane_18,
                 popuplayertitle: "cycling: separated lane",
                 interactive: true,
-                    title: '<img src="styles/legend/cyclingseparatedlane_18.png" /> cycling: separated lane'
-                });
+                title: '<img src="styles/legend/cyclingseparatedlane_18.png" /> cycling: separated lane'
+            });
 var format_cyclingoffroadpath_19 = new ol.format.GeoJSON();
 var features_cyclingoffroadpath_19 = format_cyclingoffroadpath_19.readFeatures(json_cyclingoffroadpath_19, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -373,8 +373,8 @@ var lyr_cyclingoffroadpath_19 = new ol.layer.Vector({
                 style: style_cyclingoffroadpath_19,
                 popuplayertitle: "cycling: offroad path",
                 interactive: true,
-                    title: '<img src="styles/legend/cyclingoffroadpath_19.png" /> cycling: offroad path'
-                });
+                title: '<img src="styles/legend/cyclingoffroadpath_19.png" /> cycling: offroad path'
+            });
 var format_intersectiontype_20 = new ol.format.GeoJSON();
 var features_intersectiontype_20 = format_intersectiontype_20.readFeatures(json_intersectiontype_20, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -460,7 +460,7 @@ lyr_canopy_cover_9.set('fieldLabels', {'ogc_fid': 'hidden field', 'canopy_cover'
 lyr_slope_10.set('fieldLabels', {'ogc_fid': 'hidden field', 'slope': 'inline label - visible with data', });
 lyr_lanenumbersoneway_11.set('fieldLabels', {'ogc_fid': 'hidden field', 'lanes': 'inline label - visible with data', });
 lyr_speedlimit_12.set('fieldLabels', {'ogc_fid': 'hidden field', 'speed_limit': 'inline label - visible with data', });
-lyr_linkswithbikelaneprojecttags_13.set('fieldLabels', {'ogc_fid': 'hidden field', 'bikelane_left': 'inline label - visible with data', 'bikelane_right': 'inline label - visible with data', 'bikelane_left_lane': 'inline label - visible with data', 'bikelane_right_lane': 'inline label - visible with data', 'bikelane_left_width': 'inline label - visible with data', 'bikelane_right_width': 'inline label - visible with data', 'bikelane_left_traf_left': 'inline label - visible with data', 'bikelane_left_traf_right': 'inline label - visible with data', 'bikelane_right_traf_left': 'inline label - visible with data', 'bikelane_right_traf_right': 'inline label - visible with data', 'bikelane_left_buff_left': 'inline label - visible with data', 'bikelane_left_buff_right': 'inline label - visible with data', 'bikelane_right_buff_left': 'inline label - visible with data', 'bikelane_right_buff_right': 'inline label - visible with data', });
+lyr_linkswithbikelaneprojecttags_13.set('fieldLabels', {'ogc_fid': 'hidden field', 'bikelane_left': 'no label', 'bikelane_right': 'no label', 'bikelane_left_lane': 'no label', 'bikelane_right_lane': 'no label', 'bikelane_left_width': 'no label', 'bikelane_right_width': 'no label', 'bikelane_left_traf_left': 'no label', 'bikelane_left_traf_right': 'no label', 'bikelane_right_traf_left': 'no label', 'bikelane_right_traf_right': 'no label', 'bikelane_left_buff_left': 'no label', 'bikelane_left_buff_right': 'no label', 'bikelane_right_buff_left': 'no label', 'bikelane_right_buff_right': 'no label', });
 lyr_everydayridesharedpaths_14.set('fieldLabels', {'ogc_fid': 'hidden field', 'shared_path': 'inline label - visible with data', });
 lyr_proposedprotectednetwork_15.set('fieldLabels', {'ogc_fid': 'hidden field', 'new_link_required': 'inline label - visible with data', });
 lyr_cyclingmixedtraffic_16.set('fieldLabels', {'ogc_fid': 'hidden field', 'cycleway': 'inline label - visible with data', });
